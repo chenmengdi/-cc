@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F73452F2019AD1700DEC521 /* UIColor+colorWithHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F73452E2019AD1700DEC521 /* UIColor+colorWithHex.m */; };
+		5F7345322019BF0100DEC521 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7345312019BF0000DEC521 /* UIViewExt.m */; };
 		5FD1DE1920187AFE00D8683C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1DE1820187AFE00D8683C /* AppDelegate.m */; };
 		5FD1DE1C20187AFE00D8683C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1DE1B20187AFE00D8683C /* ViewController.m */; };
 		5FD1DE1F20187AFE00D8683C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD1DE1D20187AFE00D8683C /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		5FD1DE2720187AFE00D8683C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1DE2620187AFE00D8683C /* main.m */; };
 		5FD1DE3120187AFE00D8683C /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1DE3020187AFE00D8683C /* __Tests.m */; };
 		5FD1DE3C20187AFE00D8683C /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1DE3B20187AFE00D8683C /* __UITests.m */; };
+		5FD1DE4B20187B9100D8683C /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1DE4A20187B9100D8683C /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F73452D2019AD1700DEC521 /* UIColor+colorWithHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+colorWithHex.h"; sourceTree = "<group>"; };
+		5F73452E2019AD1700DEC521 /* UIColor+colorWithHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+colorWithHex.m"; sourceTree = "<group>"; };
+		5F7345302019BF0000DEC521 /* UIViewExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		5F7345312019BF0000DEC521 /* UIViewExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		5FD1DE1420187AFE00D8683C /* 进度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "进度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD1DE1720187AFE00D8683C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5FD1DE1820187AFE00D8683C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,8 @@
 		5FD1DE3720187AFE00D8683C /* 进度UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "进度UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD1DE3B20187AFE00D8683C /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		5FD1DE3D20187AFE00D8683C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FD1DE4920187B9100D8683C /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		5FD1DE4A20187B9100D8683C /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				5FD1DE1820187AFE00D8683C /* AppDelegate.m */,
 				5FD1DE1A20187AFE00D8683C /* ViewController.h */,
 				5FD1DE1B20187AFE00D8683C /* ViewController.m */,
+				5FD1DE4920187B9100D8683C /* MyView.h */,
+				5FD1DE4A20187B9100D8683C /* MyView.m */,
+				5F73452D2019AD1700DEC521 /* UIColor+colorWithHex.h */,
+				5F73452E2019AD1700DEC521 /* UIColor+colorWithHex.m */,
+				5F7345302019BF0000DEC521 /* UIViewExt.h */,
+				5F7345312019BF0000DEC521 /* UIViewExt.m */,
 				5FD1DE1D20187AFE00D8683C /* Main.storyboard */,
 				5FD1DE2020187AFE00D8683C /* Assets.xcassets */,
 				5FD1DE2220187AFE00D8683C /* LaunchScreen.storyboard */,
@@ -265,8 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD1DE4B20187B9100D8683C /* MyView.m in Sources */,
 				5FD1DE1C20187AFE00D8683C /* ViewController.m in Sources */,
 				5FD1DE2720187AFE00D8683C /* main.m in Sources */,
+				5F73452F2019AD1700DEC521 /* UIColor+colorWithHex.m in Sources */,
+				5F7345322019BF0100DEC521 /* UIViewExt.m in Sources */,
 				5FD1DE1920187AFE00D8683C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99BHKCM7DV;
 				INFOPLIST_FILE = "进度/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.--";
@@ -444,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99BHKCM7DV;
 				INFOPLIST_FILE = "进度/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.--";
